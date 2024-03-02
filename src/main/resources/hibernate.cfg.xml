@@ -25,5 +25,17 @@
     <mapping class="com.prowings.inheritance.mappedsuperclass.Person"></mapping>
     <mapping class="com.prowings.inheritance.mappedsuperclass.MyEmployee"></mapping>
     <mapping class="com.prowings.inheritance.mappedsuperclass.MyWorker"></mapping>
+
+    <mapping class="com.prowings.inheritance.singleTable.MyProduct"></mapping>
+    <mapping class="com.prowings.inheritance.singleTable.Book"></mapping>
+    <mapping class="com.prowings.inheritance.singleTable.Pen"></mapping>
+
+    <mapping class="com.prowings.inheritance.joinedTableStrategy.Animal"></mapping>
+    <mapping class="com.prowings.inheritance.joinedTableStrategy.Pet"></mapping>
+    <mapping class="com.prowings.inheritance.joinedTableStrategy.WildAnimals"></mapping>
+
+    <mapping class="com.prowings.inheritance.tablePerClassStrategy.Vehicle"></mapping>
+    <mapping class="com.prowings.inheritance.tablePerClassStrategy.Car"></mapping>
+    <mapping class="com.prowings.inheritance.tablePerClassStrategy.Truck"></mapping>
   </session-factory>
 </hibernate-configuration>
